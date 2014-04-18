@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SFTPinConnector:jar">
+    <output-path>C:/ManagementGateway/5.6.0/root/applications/SFTPconnector/data/java</output-path>
+    <root id="archive" name="SFTPinConnector.jar">
+      <element id="module-output" name="SFTPinConnectorModule" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/commons-io-2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jstrs.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jsch-0.1.50.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/SFTPinConnector.i" />
+    </root>
+  </artifact>
+</component>
